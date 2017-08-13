@@ -12,9 +12,7 @@ There are 6 lines for the final robot, from the first option to the sixth:
 
 ![](/Docs/Pictures/motors_encoders_wheel.JPG)
 
-2. Stepper option: A sumobot using stepper motors, probably 28BYJ-48 motors.
-
-![](/Docs/Pictures/stepper_28BYJ-48.jpg)
+2. Stepper option: A sumobot using stepper motors. **Decide with Motor** **Quickly**
 
 3. ElSarrador: The first test.
 
