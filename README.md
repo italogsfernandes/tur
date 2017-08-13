@@ -6,7 +6,31 @@ Projeto para a competição de robôs minisumô, a [sumocup na ufu](http://www.l
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+There are 6 lines for the final robot, from the first option to the sixth:
+
+1. **Made in China Robot**: The idea is to assemble a personal sumobot using this chinese motors.
+
+![](/Docs/Pictures/motors_encoders_wheel.JPG)
+
+2. Stepper option: A sumobot using stepper motors, probably 28BYJ-48 motors.
+
+![](/Docs/Pictures/stepper_28BYJ-48.jpg)
+
+3. ElSarrador: The first test.
+
 ![](/Docs/Pictures/sarrador_v001.jpg)
+
+4. Feijuca: Packet with 500g of beans.
+
+![](/Docs/Pictures/feijao.jpg)
+
+5. Ronaldo's Robot: A adapted line follower, just for tests and for fun.
+
+![](/Docs/Pictures/chassi-acrilico.jpg)
+
+6. Pololu Zumo: We have not  enough money, but we think it's a bealtiful robot. If you are reading this and you have money, we will be thankfull for a robot-donation.
+
+![](/Docs/Pictures/pololu_zumo.jpg)
 
 ### In this repository
 
@@ -59,7 +83,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ![](/Docs/Pictures/playgroundvideo.JPG)
 
 * [Rules](http://www.lasec.feelt.ufu.br/sumocup).
-![](/Docs/Pictures/rules.jpg)
+
+![](/Docs/Pictures/rules.JPG)
 
 ## License
 
