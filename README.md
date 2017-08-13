@@ -56,8 +56,10 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## More Info
 
 * A nice [video](https://www.youtube.com/watch?v=ABleYAFDfmY).
+![](/Docs/Pictures/playgroundvideo.JPG)
 
 * [Rules](http://www.lasec.feelt.ufu.br/sumocup).
+![](/Docs/Pictures/rules.jpg)
 
 ## License
 
