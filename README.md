@@ -6,6 +6,8 @@ Projeto para a competição de robôs minisumô, a [sumocup na ufu](http://www.l
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+[](/Docs/Pictures/sarrador_v001.jpg)
+
 ### In this repository
 
 There are a lot of folders and files, but there are nothing in most of then :( - we need to work.
