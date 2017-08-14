@@ -16,7 +16,7 @@ There are 6 ideas for the final robot, from top-down here they are:
 
 3. el Sarrador: The begin.
 
-![](/Docs/Pictures/elSarrador.gif)
+![elSarrador](/Docs/Pictures/elSarrador.gif)
 
 4. Feijuca: Packet with 500g of beans.
 
