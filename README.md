@@ -1,38 +1,38 @@
-# EnTulio (ElSarrador)
+# EnTulio (a.k.a. el Sarrador)
 
-Projeto para a competição de robôs minisumô, a [sumocup na ufu](http://www.lasec.feelt.ufu.br/sumocup).
+Our project to the mini [sumo-bot challenge at UFU](http://www.lasec.feelt.ufu.br/sumocup).
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-There are 6 lines for the final robot, from the first option to the sixth:
+There are 6 ideas for the final robot, from top-down here they are:
 
 1. **Made in China Robot**: The idea is to assemble a personal sumobot using this chinese motors.
 
 ![](/Docs/Pictures/motors_encoders_wheel.JPG)
 
-2. Stepper option: A sumobot using stepper motors. **Decide with Motor** **Quickly**
+2. Stepper option: A sumobot using stepper motors. **abandoned**
 
-3. ElSarrador: The first test.
+3. el Sarrador: The begin.
 
-![](/Docs/Pictures/sarrador_v001.jpg)
+![](/Docs/Pictures/elSarrador.gif)
 
 4. Feijuca: Packet with 500g of beans.
 
 ![](/Docs/Pictures/feijao.jpg)
 
-5. Ronaldo's Robot: A adapted line follower, just for tests and for fun.
+5. Ronaldo's Robot: test platform, just for tests and for fun.
 
 ![](/Docs/Pictures/chassi-acrilico.jpg)
 
-6. Pololu Zumo: We have not  enough money, but we think it's a bealtiful robot. If you are reading this and you have money, we will be thankfull for a robot-donation.
+6. Pololu Zumo: Well, we don't have any money, but its a lovely robot. Feel free to donate us, we'll be delighted!
 
 ![](/Docs/Pictures/pololu_zumo.jpg)
 
 ### In this repository
 
-There are a lot of folders and files, but there are nothing in most of then :( - we need to work.
+There are a lot of folders and files, but they are mostly empty :( - we need to get to work.
 
 - [ ] Firmware: Arduino Codes.
   - [ ] Main: The main arduino code.
@@ -71,13 +71,13 @@ There are a lot of folders and files, but there are nothing in most of then :( -
 
 ## Versioning
 
-There aren't actual versions, the nearest is the "saco de feijão".
+There aren't actual versions yet,  the "saco de feijão" is the closest thing we got.
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## More Info
 
-* A nice [video](https://www.youtube.com/watch?v=ABleYAFDfmY).
+* Checkout this cool [video](https://www.youtube.com/watch?v=ABleYAFDfmY).
 ![](/Docs/Pictures/playgroundvideo.JPG)
 
 * [Rules](http://www.lasec.feelt.ufu.br/sumocup).
@@ -90,10 +90,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ```
 "THE BEERWARE LICENSE" (Revision 42):
-Italo Fernandes, Adrielle Nazar and Ronaldo Sena wrote this code. As long as you retain this
-notice, you can do whatever you want with this stuff. If we
-meet someday, and you think this stuff is worth it, you can
-buy us a beer in return.
+Italo Fernandes, Adrielle Nazar and Ronaldo Sena wrote this code. 
+As long as you retain this notice, you can do whatever you want with this stuff. 
+If we meet someday, and you think this stuff is worth it, you can buy us a beer in return.
 ```
 ## Authors
 
