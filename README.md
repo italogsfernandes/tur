@@ -12,7 +12,10 @@ There are 6 ideas for the final robot, from top-down here they are:
 
 ![](/Docs/Pictures/motors_encoders_wheel.JPG)
 
-2. Stepper option: A sumobot using stepper motors. **abandoned**
+2. Stepper option: A sumobot using stepper motors. **Waiting Motors Selection**
+![](/Docs/Pictures/italo_motor_1.jpg)
+![](/Docs/Pictures/italo_motor_2.jpg)
+![](/Docs/Pictures/italo_motor_3.jpg)
 
 3. el Sarrador: The begin.
 
@@ -90,8 +93,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ```
 "THE BEERWARE LICENSE" (Revision 42):
-Italo Fernandes, Adrielle Nazar and Ronaldo Sena wrote this code. 
-As long as you retain this notice, you can do whatever you want with this stuff. 
+Italo Fernandes, Adrielle Nazar and Ronaldo Sena wrote this code.
+As long as you retain this notice, you can do whatever you want with this stuff.
 If we meet someday, and you think this stuff is worth it, you can buy us a beer in return.
 ```
 ## Authors
