@@ -97,14 +97,8 @@ void setup() {
     //Serial:
     Serial.begin(UART_BAUDRATE);
 
-    //Sensor Inercial
-    #if I2CDEV_IMPLEMENTATION == I2CDEV_ARDUINO_WIRE
-    Wire.begin();
-    Wire.setClock(200000); //NOTE: Ajustar de acordo com arduino utilizado
-    #elif I2CDEV_IMPLEMENTATION == I2CDEV_BUILTIN_FASTWIRE
-    Fastwire::setup(400, true);
-    #endif
     iniciar_sensor_inercial();
+
 }
 
 void loop() {
@@ -112,7 +106,7 @@ void loop() {
     currentMillis = millis();
     if (currentMillis - previousMPUMillis >= mpu_interval) {
         previousMPUMillis = currentMillis;
-        ler_sensor_inercial(); //Realiza leitura e envia pacote(ou mostra) dados
+        mpu6050_update(); //Realiza leitura e envia pacote(ou mostra) dados
     }
 
     currentMillis = millis();
@@ -122,13 +116,7 @@ void loop() {
     }
 
 
-    if(abs(euler[1] * 180/M_PI) < 10){
-        digitalWrite(LED_PIN, 0); //E estabiliza
-    } else if(euler[1] * 180/M_PI < -15){
-        digitalWrite(LED_PIN, 1); //E sobe
-    } else if(euler[1] * 180/M_PI > 15){
-        digitalWrite(LED_PIN, 1); //E desce
-    }
+
 }
 
 
@@ -137,6 +125,13 @@ void loop() {
 ////////////////////
 
 void iniciar_sensor_inercial() {
+    //Sensor Inercial
+    #if I2CDEV_IMPLEMENTATION == I2CDEV_ARDUINO_WIRE
+    Wire.begin();
+    Wire.setClock(200000); //NOTE: Ajustar de acordo com arduino utilizado
+    #elif I2CDEV_IMPLEMENTATION == I2CDEV_BUILTIN_FASTWIRE
+    Fastwire::setup(400, true);
+    #endif
     if (mpu.testConnection()) {
         mpu.initialize(); //Initializes the IMU
         uint8_t ret = mpu.dmpInitialize(); //Initializes the DMP
@@ -159,7 +154,7 @@ void iniciar_sensor_inercial() {
     }
 }
 
-void ler_sensor_inercial() {
+void mpu6050_update() {
     numbPackets = floor(mpu.getFIFOCount() / PSDMP);
     //DEBUG_PRINT__(numbPackets); DEBUG_PRINT__(" - ");
     if (numbPackets >= 24) {
