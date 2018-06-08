@@ -116,7 +116,19 @@ void loop() {
     }
 
 
+    if(abs(euler[1] * 180/M_PI) < 15){
+        digitalWrite(LED_PIN, 0); //E estabiliza
 
+    } else if(euler[1] * 180/M_PI < -15){
+        digitalWrite(LED_PIN, 1); //E sobe
+
+    } else if(euler[1] * 180/M_PI > 15){
+        digitalWrite(LED_PIN, 1); //E desce
+
+    } else {
+        //Caso não for contemplado acima
+        //ola
+    }
 }
 
 
